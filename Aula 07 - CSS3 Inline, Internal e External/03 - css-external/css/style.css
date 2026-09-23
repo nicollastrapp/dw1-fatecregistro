@@ -1,0 +1,45 @@
+/* Comentário CSS */
+/* Este é um arquivo do CSS Externo */
+
+/* Seletor de elemento (tag) */
+body {
+    background-color: #30302e;
+    color: #ffffff;
+    font-family: "Segoe UI";
+    
+    /* Espaço Interno: */
+    padding: 20px;
+
+    /* ENtrelinhamento (leading) - Espaçamento entre linhas */
+    line-height: 1.6;
+}
+
+h1 {
+    color: #8cc9e4;
+    font-size: 32px;
+    text-align: center;
+
+    /* Borda Inferior */
+    border-bottom: 3px solid #8cc9e4;
+
+    /* Espaçamento Inferior */
+    padding-bottom: 5px;
+}
+
+.container {
+    background-color: #3a3a38;
+    padding: 20px;
+    border-radius: 10px;
+
+    /* Margem 4 valores(Ordem --> Superior, Direita, Inferior, Esquerda) */
+    /* Margem 2 valores(Ordem --> Superior e Inferior (Y), Dirieta e Esquerda (X)) */
+    margin: 20px 20px 20px 20px;
+}
+
+#pa {
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
