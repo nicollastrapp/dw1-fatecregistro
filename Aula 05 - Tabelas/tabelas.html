@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+<body>
+    <h1>Tabelas no HTML5</h1>
+
+    <!-- Estrutura mínima de uma tabela -->
+    <table border="1">
+        <tr>
+            <td>Dado 1</td>
+            <td>Dado 2</td>
+            <td>Dado 3</td>
+        </tr>
+        <tr>
+            <td>Dado 4</td>
+            <td>Dado 5</td>
+            <td>Dado 6</td>
+        </tr>
+    </table>
+
+
+    <!-- br - break line (quebra de linha) -->
+    <br><br><br>
+    <!-- Exemplo de tabela completa com mesclagem -->
+     <table border="1">
+        <!-- Título da tabela -->
+        <caption>Vendas do mês</caption>
+        <!-- Cabeçalho da tabela -->
+        <thead>
+            <!-- Linha 1 -->
+            <tr>
+                <th>Produto</th>
+                <th>Quantidade</th>
+                <th>Valor</th>
+            </tr>
+        </thead>
+        <!-- Corpo da tabela -->
+         <tbody>
+            <!-- Linha 2 -->
+            <tr>
+                <!-- rowspan mescla linha -->
+                <td rowspan="2">Mouse</td>
+                <td align="center">10</td>
+                <td align="center">R$ 500,00</td>
+            </tr>
+            <!-- Linha 3 -->
+            <tr>
+                <td>20</td>
+                <td>R$ 1.000,00</td>
+            </tr>
+         </tbody>
+         <!-- Rodapé da tabela -->
+         <TFoot>
+            <!-- Linha 4 -->
+            <tr>
+                <th colspan="2">Total:</td>
+                <td>R$ 1.500,00</td>
+            </tr>
+         </TFoot>
+     </table>
+
+
+     <!-- Tabela completa com atributo "scope" -->
+</body>
+</html>
