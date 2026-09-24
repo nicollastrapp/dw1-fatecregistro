@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>formulario</title>
+  </head>
+  <body>
+    <h1>Formulario no HTML 5</h1>
+    <form method="get">
+      <label for="Nome">nome</label><br />
+      <!-- input text -->
+      <input name="text" id="nome" placeholder="Insira seu nome completo" />
+      <br />
+      <!-- input e-mail -->
+      <label for="email"> E-mail</label><br />
+      <input name="email" id="email" placeholder="Insira seu email" /> <br />
+      <!-- input passoword -->
+      <label for="passoword"> Senha</label> <br />
+      <input name="password" id="passoword" placeholder="Insira a sua Senha" /><br />
+      <!-- botão de submeter -->
+      <input type="submit" value="CADASTRAR" />
+      <!-- BOTÃO DE LIMPAR O FORMULARIO -->
+      <input type="reset" value="LIMPAR" />
+    </form>
+    <br /><br />
+
+    <hr />
+    <h4>outros input</h4>
+    <form>
+      <label for="quantidade">Quantidade</label><br />
+      <!-- input de numero -->
+      <input type="number" min="0" max="10" /> <br />
+      <label for="date">Data</label><br /><br />
+      <!-- input de data -->
+      <input type="date" /><br /><br />
+      <!-- imput de arquivo -->
+      <input type="file" /><br />
+      <label> comentario </label><br /><br />
+      <textarea rows="4" cols="40"></textarea><br /><br />
+      <!-- Campo Invisivel -->
+      <input type="hidden" name="Idproduto" value="9" />
+      <!-- Caixa de seleção -->
+      <label for="Curso"></label><br />
+      <select name="Curso">
+        <option value="1">Programação</option>
+        <option value="2">design grafico</option>
+        <option value="3">música</option>
+        <option value="4">Enfermagem</option>
+      </select>
+    </form>
+  </body>
+</html>
