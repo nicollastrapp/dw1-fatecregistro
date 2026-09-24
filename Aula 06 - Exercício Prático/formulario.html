@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Alunos</title>
+</head>
+<body>
+    <h1>Cadastro de Aluno - DSM</h1>
+    <p>Este formulário tem o intuito de cadastrar 
+        todos os alunos que cursam <strong>Desenvolvimento de
+        Software e Multiplataforma</strong> na Fatec de Registro</p>
+
+    <form action="#" method="post">
+        <!-- PRIMEIRA DIVISÃO - DADOS PESSOAIS -->
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <!-- Nome -->
+            <label for="nome"></label>
+            <input type="text" id="nome" 
+            required placeholder="Insira seu Nome Completo"> <br><br>
+
+            <!-- E-mail -->
+            <label for="email"></label>
+            <input type="email" id="email" 
+            required placeholder="Insira seu E-mail"> <br><br>
+
+            <!-- Data Nascimento -->
+            <label for="date"></label>
+            <input type="date" id="date" 
+            required placeholder="Insira sua Data de Nascimento"> 
+        </fieldset> <br><br>
+
+        <!-- SEGUNDA DIVISÃO - DADOS ACADÊMICOS -->
+        <fieldset>
+            <legend>Dados Acadêmicos</legend>
+            <!-- Curso -->
+            <label for="curso"></label>
+            <select name="curso" id="curso">
+                <option value="1">DSM</option>
+                <option value="2">ADS</option>
+                <option value="3">GTE</option>
+            </select> <br><br>
+
+            <!-- Período -->
+            <label for="periodo"></label>
+            <input type="radio" value="m" name="periodo">Manhã
+            <input type="radio" value="n" name="periodo">Noite <br><br>
+
+            <!-- Observações -->
+            <label type="comentario">Comentário:</label>
+            <textarea name="radio" id="comentario" rows="4"
+            cols="40"></textarea>
+        </fieldset> <br>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+    </form>
+</body>
+</html>
